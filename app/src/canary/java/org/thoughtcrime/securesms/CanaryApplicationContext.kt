@@ -49,15 +49,15 @@ class CanaryApplicationContext : ApplicationContext() {
           fieldName = "mImpl"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackService",
+          className = "org.thoughtcrimedual.securesms.components.voice.VoiceNotePlaybackService",
           fieldName = "mApplication"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.thoughtcrime.securesms.service.GenericForegroundService\$LocalBinder",
+          className = "org.thoughtcrimedual.securesms.service.GenericForegroundService\$LocalBinder",
           fieldName = "this\$0"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.thoughtcrime.securesms.contacts.ContactsSyncAdapter",
+          className = "org.thoughtcrimedual.securesms.contacts.ContactsSyncAdapter",
           fieldName = "mContext"
         )
     )

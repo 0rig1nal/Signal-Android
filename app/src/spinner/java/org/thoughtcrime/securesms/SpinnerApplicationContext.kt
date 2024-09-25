@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package org.thoughtcrimedual.securesms
 
 import android.content.ContentValues
 import android.os.Build
